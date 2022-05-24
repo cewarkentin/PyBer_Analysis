@@ -18,6 +18,22 @@ Explain the purpose of the new analysis
 
 Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
 
+![Fig1](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig1.png)
+
+![Fig2](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig2.png)
+
+![Fig3](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig3.png)
+
+![Fig4](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig4.png)
+
+![Fig5](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig5.png)
+
+![Fig6](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig6.png)
+
+![Fig7](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig7.png)
+
+![PyBer_fare_summary](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
+
 There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type.
 
 ## Summary
