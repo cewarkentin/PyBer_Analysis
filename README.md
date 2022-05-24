@@ -26,9 +26,21 @@ While there is some overlap in total number of rides based on city type, general
 
 ### Driver Count Data
 
-![Fig4](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig4.png)
+The figure below is a pie chart illustrating what types of cities PyBer drivers are in.
 
 ![Fig7](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig7.png)
+
+The majority of PyBer drivers (80.9%) work in urban cities, 16.5% of PyBer drivers work in suburban cities, and only 2.6% of PyBer drivers work in rural cities.
+
+The figure below is a box-and-whisker plot illustrating the number of PyBer drivers at any point in time in a city depending on the type of city.
+
+![Fig4](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig4.png)
+
+At any given point in time, urban cities could have between 3 and 73 drivers, with an average of 37 drivers available. Suburban cities could have between could have between 1 and 25 drivers, with an average of 16 drivers available at any point in time. Rural cities could have between 1 and 9 drivers, with an average of 4 drivers available at any point in time.
+
+Regardless of city type, the minimum number of drivers at any point in time were fairly close (4 in urban cities, 1 in suburban cities, and 1 in rural cities). However, the average number of drivers available increases as human population and activity increases. Additionally, the range of potential available drivers increases as human population and activity increases.
+
+Futher data analysis is required to determine if PyBer activity in an area is limited by driver availability or by the number of rider requests. With said additional analysis, it would be possible to determine if PyBer activity in rural areas could potentially be increased by increasing driver availability.
 
 ### Ride Count Data
 
