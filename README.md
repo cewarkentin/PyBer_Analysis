@@ -24,6 +24,26 @@ The figure below represents the total number of rides completed in each city com
 
 While there is some overlap in total number of rides based on city type, generally the number of rides per city increases as the cities increase in population and activity (i.e. moving from rural cities to suburban cities to urban cities). Additionally, as the total number of rides increases, the average fare generally decreases. Because of the relationship between total number of rides, average fare, and city type, it also appears that as areas progress from rural to suburban to urban, the average fare also generally decreases.
 
+### Ride Fare Data
+
+The figure below is a pie chart illustrating where the majority of PyBer fares come from.
+
+![Fig5](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig5.png)
+
+According to the provided data, 62.7% of PyBer fare is made during rides in urban cities, 30.5% of PyBer fare is made in suburban cities, and 6.8% of PyBer fare is made in rural cities.
+
+It is unclear whether PyBer fares are based on supply-and-demand or a flat rate. If they are based on supply-and-demand, this data could additionally be used to interpret ride demand versus driver availability. However, fare data is further nuanced by the factor of whether there is a relationship between ride length (and therefore ride price) and city type. While this information would be interesting and insightful, it would require much more analysis.
+
+The box-and-whisker plot below can start to parse out a relationship between ride price and city type-- the figure illustrates the range of prices for a PyBer ride depending on the type of city.
+
+![Fig3](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig3.png)
+
+A PyBer ride in an urban city can cost between $4-45, with an average cost of $25. A PyBer ride in a suburban city can cost between $12-50, with an average cost of $30. A PyBer ride in a rural city can cost between $10-59, with an average cost of $37.
+
+The standard deviation for PyBer prices in urban cities is $12. The standard deviation for PyBer prices in suburban cities is $11. The standard deviation for PyBer prices in rural cities is $15.
+
+The average PyBer ride in a rural city is more likely to be more expensive than over 75% of rides in urban cities and more expensive than almost 50% of rides in suburban cities. The prices of PyBer rides in rural cities indicates a potential limiting factor to the rural customer market.
+
 ### Driver Count Data
 
 The figure below is a pie chart illustrating what types of cities PyBer drivers are in.
@@ -60,13 +80,7 @@ The fourth quartile of the rural ride count data overlaps with some of the first
 
 The range of rides occurring at any point in time in rural cities overlaps with the range of rides occurring in suburban cities, and the range of rides occurring at any point in time in suburban cities overlaps with the range of rides occurring in urban cities.
 
-Analysis of Ride Count Data can start to inform whether PyBer activity in an area is limited by driver availability or by the number of rider requests, but does not fully answer the question. The overlap in the number of rides completed in rural cities overlapping with suburban cities-- and even almost overlapping with rides completed in urban cities-- could indicate a potential larger market for rides in rural cities. It would be helpful to have information on ride requests received versus ride requests completed to gain a better picture.
-
-### Ride Fare Data
-
-![Fig3](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig3.png)
-
-![Fig5](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig5.png)
+Analysis of ride count data can start to inform whether PyBer activity in an area is limited by driver availability or by the number of rider requests, but does not fully answer the question. The overlap in the number of rides completed in rural cities overlapping with suburban cities-- and even almost overlapping with rides completed in urban cities-- could indicate a potential larger market for rides in rural cities. It would be helpful to have information on ride requests received versus ride requests completed to gain a better picture.
 
 ### Total Fare by City Type
 
