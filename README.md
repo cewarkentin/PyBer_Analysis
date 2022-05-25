@@ -14,7 +14,7 @@ We used Python, Panda's libraries, Jupyter Notebook, and Matplotlib to create a 
 
 ## Results
 
-Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
+![Deliverable 1 df](https://github.com/cewarkentin/PyBer_Analysis/blob/main/Deliverable%201%20df.png)
 
 ### PyBer Ride-Sharing Data
 
