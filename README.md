@@ -44,13 +44,23 @@ Futher data analysis is required to determine if PyBer activity in an area is li
 
 ### Ride Count Data
 
-Analysis of Ride Count Data can start to inform whether PyBer activity in an area is limited by driver availability or by the number of rider requests, but does not fully answer the question. It would be helpful to have information on ride requests received versus ride requests completed to gain a better picture.
-
 The figure below is a pie chart illustrating where PyBer rides are occurring.
 
 ![Fig6](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig6.png)
 
+According to the provided data, 68.4% of PyBer rides occurred in urban cities, 26.3% of PyBer rides occurred in suburban cities, and 5.3% of PyBer rides occurred in rural cities. Similar to the first figure in the PyBer Ride-Sharing Data analysis section, generally the number of rides per city increases as the cities increase in population and activity (i.e. changes from rural to suburban to urban).
+
+The figure below is a box-and-whisker plot illustrating the number of PyBer rides at any point in time in a city depending on the type of city.
+
 ![Fig2](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig2.png)
+
+At any given point in time, between 12 and 39 rides could be occurring in an urban city, with an average of 24 rides at one time. However, the single instance of 39 rides occurring at one time is a statistical outlier. Suburban cities could have between could have between 9 and 27 rides, with an average of 17 rides at one time. Rural cities could have between could have between 3 and 12 rides, with an average of 6 rides at one time.
+
+The fourth quartile of the rural ride count data overlaps with some of the first quartile of the suburban ride count data; 25% of the data on the higher end of the rural data overlaps with less than 25% of the data on the lower end of the suburban data. Additionally, the upper limit of the range of rides in rural cities is the lower limit of the range of rides in urban cities.
+
+The range of rides occurring at any point in time in rural cities overlaps with the range of rides occurring in suburban cities, and the range of rides occurring at any point in time in suburban cities overlaps with the range of rides occurring in urban cities.
+
+Analysis of Ride Count Data can start to inform whether PyBer activity in an area is limited by driver availability or by the number of rider requests, but does not fully answer the question. The overlap in the number of rides completed in rural cities overlapping with suburban cities-- and even almost overlapping with rides completed in urban cities-- could indicate a potential larger market for rides in rural cities. It would be helpful to have information on ride requests received versus ride requests completed to gain a better picture.
 
 ### Ride Fare Data
 
