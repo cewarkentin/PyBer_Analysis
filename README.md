@@ -44,9 +44,13 @@ Futher data analysis is required to determine if PyBer activity in an area is li
 
 ### Ride Count Data
 
-![Fig2](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig2.png)
+Analysis of Ride Count Data can start to inform whether PyBer activity in an area is limited by driver availability or by the number of rider requests, but does not fully answer the question. It would be helpful to have information on ride requests received versus ride requests completed to gain a better picture.
+
+The figure below is a pie chart illustrating where PyBer rides are occurring.
 
 ![Fig6](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig6.png)
+
+![Fig2](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/Fig2.png)
 
 ### Ride Fare Data
 
