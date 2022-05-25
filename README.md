@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-We are working at PyBer, a Python-based ride-sharing app company. Our job is to analyze and create several types of visualizations to best illustrate data contained in large CSV files.
+We are working at PyBer, a Python-based ride-sharing app company. Our job is to analyze and create several types of visualizations to best illustrate relationships between the type of city (urban, suburban, rural) and the number of PyBer drivers and riders, as well as the percentage of total fares, riders, and drivers by type of city.
 
 ### Purpose
 
@@ -84,12 +84,19 @@ Analysis of ride count data can start to inform whether PyBer activity in an are
 
 ### Total Fare by City Type
 
+The line graph below illustrates the weekly total fare in the three city types (urban, suburban, and rural) between 1 January 2019 and 29 April 2019. 
+
 ![PyBer_fare_summary](https://github.com/cewarkentin/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
 
-There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type.
+Without regression analysis, it is hard to tell if there is any significant trend between specific time of year and total fare in any of the three city types (i.e. fare is significantly higher in one month and lower in another). Visually, there appears to be a spike in total fare in the third week of February for all three city types. However, it is clear that regardless of time of year between 1 January and 29 April, total fare is always highest in urban cities, then suburban cities, and always lowest in rural cities. In the time period included, there does not appear to be a "busy season", regardless of city type.
 
 ## Summary
 
-Based on the results, provide three business recommendations to the CEO for addressing any disparities among the city types.
+Based on the results, I recommend:
 
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types.
+- Further investigation into why there are fewer drivers in rural areas.
+  - Further investigation into ride requests received versus ride requests completed in the various city types.
+  - Further investigation into ride lengths in the various city types.
+  - Futher investigation into driver pay in the various city types.
+- Increasing driver availability in rural cities to test for an increase in ride requests.
+- Decreasing ride prices in rural citites to decrease potential limiting factors to the rural customer market.
